@@ -1,7 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+  
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageVersion>0.0.1-local-prerelease</PackageVersion>
+    <Authors>Alex Drenea</Authors>
+    <Description>
+      Simpple Console WriteLine extensions to help with formatting and colorization
+    </Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>© 2020 Alex Drenea</Copyright>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/alexdrenea/ConsoleWriter</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryType>Git</RepositoryType>
+    <RepositoryUrl>https://github.com/alexdrenea/ConsoleActions</RepositoryUrl>
+    <PackageTags>Console .NETStandard</PackageTags>
+    <AssemblyName>ConsoleWriter</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
