@@ -9,4 +9,10 @@
     <ProjectReference Include="..\..\src\ConsoleWriter\ConsoleWriter.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Domain\movies.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
